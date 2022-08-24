@@ -1,0 +1,147 @@
+html {
+    font-family: 'Charis SIL', serif;
+}
+
+body {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+img {
+  width: 80%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+h3 {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+section {
+  padding: 2vh 10vw;
+}
+
+nav {
+  padding: 15px 0;
+  background-color: #e1eeea;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+nav li {
+  text-transform: uppercase;
+  padding: 0 30px;
+  display: inline-block;
+}
+
+.head-area {
+  padding-top: 90px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #e8f6f2;
+}
+
+.head-area img {
+  width: 80%;
+}
+
+.head-area button {
+  color: #fff;
+  background-color: rgb(209, 63, 63);
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.head-info {
+  padding: 20px 30px;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.our-work {
+  background-color: #e8f6f2;
+}
+
+.work-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.work-content .do {
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.answers-content {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.answers-p {
+    border-bottom: 2px solid #acc4bd;
+}
+
+.feedbacks {
+    background-color: #e8f6f2;
+}
+
+.feedback {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 2fr 1fr;
+}
+
+.more p {
+    border-bottom: 2px solid #acc4bd;
+}
+
+.contact {
+    text-align: center;
+    background-color: #e8f6f2;
+}
+
+footer {
+    text-align: center;
+    background-color: #616967
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 459px) {
+  body {
+    font-size: 1.1rem;
+  }
+  .head-area, .about-content, .work-content, .answers-content, .feedback {
+    grid-template-columns: 1fr;
+  }
+}
